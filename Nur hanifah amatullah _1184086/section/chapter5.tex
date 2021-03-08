@@ -1,0 +1,82 @@
+\chapter{Vektorisasi kata dan dokumen}
+
+Untuk pratikum saati ini menggunakan buku \textit{Python Artificial Intelligence Projects for Beginners}\cite{eckroth2018python}. Dengan praktek menggunakan python 3 dan editor anaconda dan library python scikit-learn.
+Kode program ada di https://github.com/awangga/Python-Artificial-Intelligence-Projects-for-Beginners .
+Tujuan pembelajaran pada pertemuan pertama antara lain:
+\begin{enumerate}
+\item
+Mengerti konsep dasar vektorisasi pada kata dan dokumen
+\item
+Mengerti teknik machine learning untuk similaritas kata dan dokumen
+\item
+Memahami score dari berbagai teknik klasifikasi
+\end{enumerate}
+
+Tugas dengan cara dikumpulkan dengan pull request ke github dengan menggunakan latex pada repo yang dibuat oleh asisten riset. Kode program menggunakan input listing ditaruh di folder src ekstensi .py dan dipanggil ke latex dengan input listings. Tulisan dan kode tidak boleh plagiat, menggunakan bahasa indonesia yang sesuai dengan gaya bahasa buku teks. Tidak menyertakan pdf kompilasi diskon 50\% nilainya.
+
+\section{Teori}
+Teori diambil dari buku referensi mengenai apa vektorisasi dari kata dan dokumen. Dan bagaimana konsep vektorisasi dan similaritas. Kode dan praktek bisa dilihat di youtube dosen.
+
+
+\section{Soal Teori}
+Praktek teori penunjang yang dikerjakan(nilai 5 per nomor, untuk hari pertama) :
+\begin{enumerate}
+\item
+Jelaskan kenapa kata-kata harus di lakukan vektorisasi. dilengkapi dengan ilustrasi atau gambar.
+\item
+Jelaskan mengapa dimensi dari vektor dataset google bisa sampai 300.dilengkapi dengan ilustrasi atau gambar.
+\item
+Jelaskan konsep vektorisasi untuk kata.dilengkapi dengan ilustrasi atau gambar.
+\item
+Jelaskan konsep vektorisasi untuk dokumen.dilengkapi dengan ilustrasi atau gambar.
+\item
+Jelaskan apa mean dan standar deviasi,dilengkapi dengan ilustrasi atau gambar.
+\item
+Jelaskan apa itu skip-gram,dilengkapi dengan ilustrasi atau gambar.
+\end{enumerate}
+
+
+
+\section{Praktek Program}
+Tugas anda adalah,praktekkan dan jelaskan dengan menggunakan bahasa yang mudah dimengerti dan bebas plagiat dan wajib skrinsut dari komputer sendiri masing masing nomor di bawah ini(nilai 5 masing masing pada hari kedua).
+
+\begin{enumerate}
+\item Cobalah dataset google, dan jelaskan vektor dari kata love, faith, fall, sick, clear, shine, bag, car, wash, motor, cycle dan cobalah untuk melakukan perbandingan similirati dari masing-masing kata tersebut. jelaskan arti dari outputan similaritas dan setiap baris kode yang dibuat(harus beda dengan teman sekelas). (Nilai 5 untuk setiap perbandingan, disini ada 5 perbandingan similaritas)
+
+\item jelaskan dengan kata dan ilustrasi fungsi dari extract\_words dan PermuteSentences (harus beda dengan teman sekelas)
+
+\item Jelaskan fungsi dari librari gensim TaggedDocument dan Doc2Vec disertai praktek pemakaiannya. Tunjukkan keluarannya dari komputer sendiri dan artikan maksud setiap luaran yang didapatkan.
+
+\item Jelaskan dengan kata dan praktek cara menambahkan data training dari file yang dimasukkan kepada variabel dalam rangka melatih model doc2vac. Tunjukkan keluarannya dari komputer sendiri dan artikan maksud setiap luaran yang didapatkan.
+
+\item Jelaskan dengan kata dan praktek kenapa harus dilakukan pengocokan dan pembersihan data. Tunjukkan keluarannya dari komputer sendiri dan artikan maksud setiap luaran yang didapatkan.
+
+\item Jelaskan dengan kata dan praktek kenapa model harus di save dan kenapa temporari training harus dihapus.Tunjukkan keluarannya dari komputer sendiri dan artikan maksud setiap luaran yang didapatkan.
+
+\item jalankan dengan kta dan praktek maksud dari infer\_code. Tunjukkan keluarannya dari komputer sendiri dan artikan maksud setiap luaran yang didapatkan.
+
+\item Jelaskan dengan praktek dan kata maksud dari cosine\_similarity. Tunjukkan keluarannya dari komputer sendiri dan artikan maksud setiap luaran yang didapatkan.
+
+\item Jelaskan dengan praktek score dari cross validation masing-masing metode. Tunjukkan keluarannya dari komputer sendiri dan artikan maksud setiap luaran yang didapatkan.
+
+\end{enumerate}
+
+
+\section{Penanganan Error}
+Dari praktek pemrograman yang dilakukan di modul ini, error yang kita dapatkan(hasil komputer sendiri) di dokumentasikan dan di selesaikan(nilai 5 per error yang ditangani. Untuk hari kedua):
+
+\begin{enumerate}
+	\item skrinsut error
+	\item Tuliskan kode eror dan jenis errornya
+	\item Solusi pemecahan masalah error tersebut
+\end{enumerate}
+
+\section{Presentasi Tugas}
+Pada pertemuan ini, diadakan dua penilaiain yaitu penilaian untuk tugas mingguan seperti sebelumnya dengan nilai maksimal 100. Kemudian dalam satu minggu kedepan maksimal sebelum waktu mata kuliah kecerdasan buatan. Ada presentasi kematerian dengan nilai presentasi yang terpisah masing-masing 100. Jadi ada dua komponen penilaiain pada pertemuan ini yaitu :
+\begin{enumerate}
+	\item tugas minggu hari ini dan besok (maks 100). pada chapter ini
+	\item presentasi tugas kode word2vec dan doc2vec (maks 100). Mempraktekkan kode python dan menjelaskan cara kerjanya.
+\end{enumerate}
+Waktu presentasi pada jam kerja di IRC. Kriteria penilaian presentasi sangat sederhana, presenter akan ditanyai 20(10 praktek dan 10 teori) pertanyaan tentang pemahamannya menggunakan python untuk kecerdasan buatan. jika presenter tidak bisa menjawab satu pertanyaan asisten maka nilai nol. Jika semua pertanyaan bisa dijawab maka nilai 100. Presentasi bisa diulang apabila gagal, sampai bisa mendapatkan nilai 100 dalam waktu satu minggu kedepan.
+
+
