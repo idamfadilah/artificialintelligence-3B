@@ -1,2 +1,2 @@
-# pemrograman2
-Modul Praktikum Pemrograman 2
+# Artifical Intelligence
+Chapter 1
