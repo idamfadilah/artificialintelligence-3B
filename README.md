@@ -1,1 +1,0 @@
-# artificialintelligence-3B
